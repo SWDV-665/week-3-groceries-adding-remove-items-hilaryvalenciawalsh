@@ -1,0 +1,7 @@
+{
+  "name": "groceryweek3",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

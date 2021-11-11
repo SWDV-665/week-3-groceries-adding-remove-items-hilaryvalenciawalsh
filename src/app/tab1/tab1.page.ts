@@ -16,7 +16,6 @@ export class Tab1Page {
   ) {}
 
   title = 'Grocery List Items';
-  //list that will be read to create items from , added a few items to start the list
   items = [
     {
       name: 'Sugar',

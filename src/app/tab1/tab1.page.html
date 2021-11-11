@@ -1,4 +1,4 @@
-<!-- Header Start--->
+
 <ion-header [translucent]="true">
   <link rel="stylesheet" href="./tab1.page.scss">
   <ion-toolbar>
@@ -7,9 +7,7 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<!-- Header End Start--->
 
-<!-- Title Start--->
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -18,19 +16,13 @@
     </ion-toolbar>
   </ion-header>
  
-  <!-- Title End--->
-  
-  <!--Add Button-->
+
     <ion-fab vertical="bottom" slot="fixed">
     <ion-fab-button (click)="addItemPopUp()" >
       <ion-icon name="add"></ion-icon>
     </ion-fab-button>
     </ion-fab>
-  <!--End Button-->
-
- 
-
-  <!-- Grocery Items iterator--->
+  
   <ion-list>
     <ion-item-sliding *ngFor ="let item of items; let i =index">
       <ion-item>
